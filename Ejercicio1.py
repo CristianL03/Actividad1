@@ -1,0 +1,5 @@
+J = int(input("Ingrese la edad de Juan:"))
+A = int(J*(2/3))
+AN = int(J*(4/3))
+M = int(J+A+AN)
+print(f"Edad de Alberto:{A}", f"Edad de Juan:{J}", f"Edad de Ana:{AN}", f"Edad de la Mama:{M}",sep="\n")
